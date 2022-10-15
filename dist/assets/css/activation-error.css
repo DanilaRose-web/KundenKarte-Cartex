@@ -1,0 +1,44 @@
+.activation-error {
+    height: 100vh;
+}
+
+.activation-section {
+    margin-top: 70px;
+    height: 460px;
+    overflow-y: auto;
+}
+
+.activation-section-center {
+    margin-top: 0;
+}
+
+.activation-titles {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.activation-title {
+    line-height: 130%;
+}
+
+/* .activation-titles img {
+    margin-bottom: 39px;
+} */
+
+.section--light-title strong {
+    font-family: 'Solomon Sans Bold', sans-serif;
+}
+
+footer {
+    background: #152338;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.activation--footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

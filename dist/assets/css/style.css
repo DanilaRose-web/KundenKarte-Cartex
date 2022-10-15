@@ -1,0 +1,215 @@
+@import 'hello.css';
+@import 'register.css';
+@import 'activation.css';
+@import 'activation-error.css';
+@import 'activation-complete.css';
+@import 'enter.css';
+@import 'user-not-found.css';
+@import 'enter-phone.css';
+@import 'print-check.css';
+@import 'training.css';
+@import 'enter-in-profile.css';
+@import 'balance-view.css';
+@import 'payment-list.css';
+@import 'gift-catalog.css';
+@import 'choose-of-type-clothes.css';
+@import 'choose-of-type-clothes-single.css';
+@import 'choose-of-type-clothes-basket.css';
+@import 'list-of-kassir.css';
+@import 'enter-user-selected.css';
+@import 'pattern-key.css';
+@import 'get-trained-question.css';
+@import 'profile-and-orders.css';
+@import 'history-orders.css';
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+input:active, input:focus, input:hover, button:active, button:focus, button:hover {
+    outline: none;
+}
+
+/* button:active, button:focus {
+    border: none;
+} */
+
+a:active, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.section-padd {
+    padding-bottom: 20px;
+}
+
+.section-bg {
+    background: #f5f5f5;
+    min-height: 100vh;
+}
+
+.section-full {
+    height: auto;
+}
+
+.section-bg-light {
+    background: #f9f9f9;
+}
+
+.section-main-title {
+    padding: 0 34px;
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    color: #152338;
+}
+
+.activation-title {
+    margin-top: 39px;
+    margin-bottom: 32px;
+    max-width: 1020px;
+}
+
+.phone-title {
+    margin-bottom: 56px;
+}
+
+.answer-title {
+    margin-bottom: 40px;
+}
+
+#header-fixed {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+}
+
+#footer-fixed {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+}
+
+.multi-kassir-section {
+    margin-top: 90px;
+}
+
+.section-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scroll-wrapper {
+    height: 530px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.scroll-wrapper-sm {
+    height: 450px;
+    overflow-y: auto;
+}
+
+.overflow-balance {
+    height: 666px;
+    overflow-y: auto;
+}
+
+.overflow-col {
+    height: 666px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.type-clothes-overflow {
+    overflow-y: auto;
+    height: 1224px; 
+}
+
+.scroll-wrap-choose-user {
+    height: 525px;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-wrap-user-selected {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.content-profile-scroll {
+    /* height: 1000px; */
+    /* overflow-y: auto; */
+}
+
+.activation-no-height {
+    height: auto;
+}
+
+.scroll-content-payment-list {
+    height: 670px;
+    overflow-y: auto;
+}
+
+
+.basket {
+    margin-left: 26px;
+    position: relative;
+}
+
+.basket-img {
+    line-height: 0;
+}
+
+.number {
+    position: absolute;
+    top: -10px;
+    right: -14px;
+    background: #FFD401;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number div {
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #152338;
+}
+
+.change-phone-error {
+    margin-top: 50px;
+    padding-left: 34px;
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #152338;
+}
+
+.table-cell {
+    display: table-cell;
+}

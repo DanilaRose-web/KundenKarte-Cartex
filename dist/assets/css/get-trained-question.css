@@ -1,0 +1,31 @@
+.answers {
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 55px;
+    height: 310px;
+    overflow-y: auto;
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+ol {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+li.answer {
+    padding: 27px 32px;
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #152338;
+    background: #FFD401;
+    border-radius: 10px;
+}
+
+li.answer:not(:last-child) {
+    margin-bottom: 20px;
+}

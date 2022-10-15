@@ -1,0 +1,31 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hello/bg-home.jpg) no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.home-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello-title {
+    margin-top: 52px;
+    text-align: center;
+    font-family: 'Solomon Sans Reg', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 110%;
+    color: #FFD401;
+}
+

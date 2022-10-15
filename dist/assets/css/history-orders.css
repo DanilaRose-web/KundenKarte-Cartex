@@ -1,0 +1,52 @@
+.border-r {
+    background: #152338;
+    border-radius: 10px;
+}
+
+.history-orders-table-row {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-bottom: 30px;
+    
+}
+
+.p-row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.history-orders-col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.history-orders-col-one {
+    max-width: 28%;
+    flex: 0 0 28%;
+}
+
+.history-orders-col-two {
+    max-width: 32%;
+    flex: 0 0 32%;
+}
+
+.history-orders-col-three {
+    max-width: 13%;
+    flex: 0 0 13%;
+}
+
+.history-orders-col-four {
+    max-width: 27%;
+    flex: 0 0 27%;
+}
+
+.history-number,
+.history-date,
+.history-price,
+.history-bonus {
+    color: white;
+}
+
+.row-min-margin {
+    margin-bottom: 22px;
+}

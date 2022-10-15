@@ -1,0 +1,26 @@
+.fullheight-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.help-link {
+    margin-top: -15px;
+    padding: 0 34px;
+    display: block;
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    color: #5197E9;
+}
+
+.one-form-item {
+    padding-left: 34px;
+    margin-bottom: 70px;
+    flex: 0;
+}
+

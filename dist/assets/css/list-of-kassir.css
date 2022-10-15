@@ -1,0 +1,89 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 70 version
+*/
+
+.section--list-kassir {
+    overflow: hidden;
+}
+
+.kassir-slider {
+    margin-top: 40px;
+    padding-left: 32px;
+}
+
+.kassir-slide:not(:last-child) {
+    margin-right: 20px;
+}
+
+.kassir-slide {
+    max-width: 495px;
+    width: 100%;
+}
+
+.kassir-user {
+    padding: 26px 34px;
+    background: #152338;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.kassir-user:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.kassir-user-name, .kassir-user-phone {
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.kassir-user-phone {
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.kassir-user-name {
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+.kassir-slider .slick-dots {
+    bottom: -50px;
+}
+
+.kassir-slider .slick-dots li button  {
+    background: transparent;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: 3px solid #152338;
+}
+
+.slick-dots li.slick-active button {
+    background: #152338;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '';
+    text-align: center;
+    opacity: 1;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+}

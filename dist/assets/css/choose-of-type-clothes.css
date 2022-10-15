@@ -1,0 +1,103 @@
+.content--type-clothes {
+    padding-top: 130px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.type-clothes--container {
+    /* padding-left: 32px;
+    padding-right: 32px; */
+    height: 100vh;
+}
+
+.section-single-title {
+    margin-bottom: 35px;
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+    color: #152338;
+}
+
+.type-clothes-col {
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-content: flex-start;
+}
+
+.type-clothes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.type-clothes_img {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.type-clothes_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.type-clothes_title p{
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #152338;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+/* choose-of-type-clothes-inside */
+
+.type-clothes_descr  {
+    margin-bottom: 10px;
+    font-family: 'Solomon Sans Reg', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    color: #152338;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-decoration: none;
+    min-height: 48px;
+    width: 100%;
+}
+
+.type-clothes_price  {
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+    color: #152338;
+    text-align: center;
+    text-decoration: none;
+}
+
+.disabled .type-clothes_img {
+    opacity: 0.4;
+}
+
+.disabled .type-clothes_descr a, .disabled .type-clothes_price a  {
+    color: #B0BFC6;
+}
+
+
+
+
+

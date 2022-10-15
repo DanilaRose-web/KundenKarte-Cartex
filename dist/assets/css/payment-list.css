@@ -1,0 +1,94 @@
+.payment-list-table-scroll {
+    height: 512px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.row-static {
+    margin-bottom: 32px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #B0BFC6;
+}
+
+.payment-list-title {
+    margin-bottom: 37px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.payment-list-title .title {
+    margin-right: 10px;
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+    color: #152338;
+}
+
+.payment-list-title .date {
+    margin-right: 20px;
+}
+
+.payment-list-title .date, .payment-list-title strong {
+    font-family: 'Solomon Sans Reg', sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+    color: #617E8C;
+}   
+
+.payment-list-table-row {
+    margin-bottom: 30px;
+}
+
+
+/* payment-list-table */
+.trans-number-title, .trans-date-title, .trans-price-title, .trans-bonus-title {
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    color: #152338;
+}
+
+.trans-number, .trans-date, .trans-price, .trans-bonus {
+    font-family: 'Solomon Sans Bold', sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+    color: #152338;
+}
+
+.trans-date {
+    font-family: 'Solomon Sans Reg', sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.col-one, .col-two, .col-three, .col-four {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.col-one {
+    flex: 0 0 28%;
+    max-width: 28%;
+}
+
+.col-two {
+    flex: 0 0 37%;
+    max-width: 37%;
+}
+
+.col-three, .col-four {
+    flex: 0 0 17.5%;
+    max-width: 17.5%;
+}
+
+.payment-list-table {
+    overflow: hidden;
+}
+
+.scroll-container {
+    overflow-y: auto;
+}
+
+
+
